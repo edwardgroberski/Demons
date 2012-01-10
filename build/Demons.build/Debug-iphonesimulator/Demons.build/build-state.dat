@@ -1,0 +1,1153 @@
+TDemons
+v7
+r0
+t343707657.103930
+cCheck dependencies
+cProcessInfoPlistFile "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/Info.plist" Demons-Info.plist
+cCompileXIB "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/MainWindow.xib"
+cCompileXIB "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/DemonsViewController.xib"
+cCompileXIB "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/MenuScreen.xib"
+cCpResource build/Debug-iphonesimulator/Demons.app/splash.png splash.png
+cCpResource build/Debug-iphonesimulator/Demons.app/MainMenu.png MainMenu.png
+cCpResource build/Debug-iphonesimulator/Demons.app/Button.png Button.png
+cCpResource build/Debug-iphonesimulator/Demons.app/GameStartButton.png GameStartButton.png
+cCompileXIB "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameViewController.xib"
+cCompileXIB "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameScreen.xib"
+cCpResource build/Debug-iphonesimulator/Demons.app/GameBackground.png Classes/GameBackground.png
+cCpResource build/Debug-iphonesimulator/Demons.app/Demon.png Classes/Demon.png
+cCpResource build/Debug-iphonesimulator/Demons.app/GameFullBackground.png Classes/GameFullBackground.png
+cCpResource build/Debug-iphonesimulator/Demons.app/icon.png Classes/icon.png
+cCpResource build/Debug-iphonesimulator/Demons.app/demonSprite.png Classes/demonSprite.png
+cCpResource build/Debug-iphonesimulator/Demons.app/instructionButton.png Classes/instructionButton.png
+cCompileXIB "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Instructions.xib"
+cCpResource build/Debug-iphonesimulator/Demons.app/InstructionScreen.png Classes/InstructionScreen.png
+cCpResource build/Debug-iphonesimulator/Demons.app/BackToMenu.png Classes/BackToMenu.png
+cCompileXIB "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Settings.xib"
+cCpResource build/Debug-iphonesimulator/Demons.app/Settings.png Classes/Settings.png
+cCpResource build/Debug-iphonesimulator/Demons.app/settingsbutton.png Classes/settingsbutton.png
+cCompileXIB "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameOver.xib"
+cCpResource build/Debug-iphonesimulator/Demons.app/GameOver.png Classes/GameOver.png
+cCpResource build/Debug-iphonesimulator/Demons.app/gameOverSplash.png Classes/gameOverSplash.png
+cCpResource build/Debug-iphonesimulator/Demons.app/mainMenuButton.png Classes/mainMenuButton.png
+cProcessPCH /var/folders/Ad/Ad0sQuZQHsebW6vZeWHOzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demons_Prefix-cseowjtazjcpawemxzgsyslbvlou/Demons_Prefix.pch.gch Demons_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/main.o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/DemonsAppDelegate.o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/DemonsAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/DemonsViewController.o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/DemonsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/Demon.o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Demon.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/MenuScreen.o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/MenuScreen.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/GameViewController.o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/Game.o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Game.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/GameScreen.o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameScreen.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/Instructions.o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Instructions.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/Settings.o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Settings.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/GameOver.o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameOver.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/Demons" normal i386
+cGenerateDSYMFile "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app.dSYM" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/Demons"
+cTouch "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004E6D8F0D0000000000000110
+t1315802893
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004D54CF5D0000000000205F50
+t1297403741
+s2121552
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004D54CF4A0000000000000A23
+t1297403722
+s2595
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/stdlib.h
+c000000004D4F6E9A00000000000030A7
+t1297051290
+s12455
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Button.png
+c000000004EC19F0100000000000013F4
+t1321312001
+s5108
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/BackToMenu.png
+c000000004EC9B188000000000000109E
+t1321841032
+s4254
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Demon.h
+c000000004EC18E2D000000000000023E
+t1321307693
+s574
+i<Foundation/Foundation.h>
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Demon.m
+c000000004EC18E470000000000000140
+t1321307719
+s320
+i"Demon.h"
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Demon.png
+c000000004EC1B97F0000000000001B6B
+t1321318783
+s7019
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/DemonsAppDelegate.h
+c000000004EC9DADD0000000000000244
+t1321851613
+s580
+i<UIKit/UIKit.h>
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/DemonsAppDelegate.m
+c000000004ECC422B0000000000000B5C
+t1322009131
+s2908
+i"DemonsAppDelegate.h"
+i"DemonsViewController.h"
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/DemonsViewController.h
+c000000004ECC41C600000000000001D9
+t1322009030
+s473
+i<UIKit/UIKit.h>
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/DemonsViewController.m
+c000000004ECC41BE0000000000000B9E
+t1322009022
+s2974
+i"MenuScreen.h"
+i"DemonsViewController.h"
+i"DemonsAppDelegate.h"
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Game.h
+c000000004ECC4C0800000000000005B6
+t1322011656
+s1462
+i<UIKit/UIKit.h>
+i<AudioToolbox/AudioToolbox.h>
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Game.m
+c000000004ECC7E6000000000000025CC
+t1322024544
+s9676
+i"Game.h"
+i"GameOver.h"
+i"Demon.h"
+i"DemonsViewController.h"
+i"DemonsAppDelegate.h"
+i"GameScreen.h"
+i<stdlib.h>
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameBackground.png
+c000000004EC345DC0000000000034AF3
+t1321420252
+s215795
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameFullBackground.png
+c000000004ECC4A28000000000005696D
+t1322011176
+s354669
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameOver.h
+c000000004ECC390B00000000000000FC
+t1322006795
+s252
+i<UIKit/UIKit.h>
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameOver.m
+c000000004ECAB61300000000000005EC
+t1321907731
+s1516
+i"GameOver.h"
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameOver.png
+c000000004ECAB993000000000000DF81
+t1321908627
+s57217
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameOver.xib
+c000000004ECAB5200000000000004EFB
+t1321907488
+s20219
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameScreen.h
+c000000004EC992D90000000000000102
+t1321833177
+s258
+i<UIKit/UIKit.h>
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameScreen.m
+c000000004EC992ED00000000000005F1
+t1321833197
+s1521
+i"GameScreen.h"
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameScreen.xib
+c000000004ECC4A8A000000000000708D
+t1322011274
+s28813
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameStart.h
+c000000004EC1AB2E00000000000000D7
+t1321315118
+s215
+i<UIKit/UIKit.h>
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameStart.m
+c000000004EC1AB2E0000000000000592
+t1321315118
+s1426
+i"GameStart.h"
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameStart.xib
+c000000004EC1AB2E0000000000001856
+t1321315118
+s6230
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameViewController.h
+c000000004EC1A5DC00000000000000E9
+t1321313756
+s233
+i<UIKit/UIKit.h>
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameViewController.m
+c000000004EC1A5DC00000000000005AD
+t1321313756
+s1453
+i"GameViewController.h"
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameViewController.xib
+c000000004EC1A7E40000000000004920
+t1321314276
+s18720
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/InstructionScreen.png
+c000000004EC9B14B0000000000011E12
+t1321840971
+s73234
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Instructions.h
+c000000004EC9B1EF0000000000000104
+t1321841135
+s260
+i<UIKit/UIKit.h>
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Instructions.m
+c000000004EC9B1FD00000000000005F6
+t1321841149
+s1526
+i"Instructions.h"
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Instructions.xib
+c000000004EC9B2110000000000004F80
+t1321841169
+s20352
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/MenuScreen.h
+c000000004EC9DBEB0000000000000335
+t1321851883
+s821
+i<UIKit/UIKit.h>
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/MenuScreen.m
+c000000004ECC36700000000000000C99
+t1322006128
+s3225
+i"MenuScreen.h"
+i"Settings.h"
+i"GameScreen.h"
+i"Instructions.h"
+i"DemonsAppDelegate.h"
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/MenuScreen.xib
+c000000004ECC4ABE000000000000696D
+t1322011326
+s26989
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.h
+c000000004E91F8390000000000000204
+t1318189113
+s516
+i<UIKit/UIKit.h>
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m
+c000000004EC196BA0000000000000AC3
+t1321309882
+s2755
+i"SelectScreensAppDelegate.h"
+i"DemonsViewController.h"
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Settings.h
+c000000004EC9D65A0000000000000227
+t1321850458
+s551
+i<UIKit/UIKit.h>
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Settings.m
+c000000004ECC37EE0000000000000B17
+t1322006510
+s2839
+i"Settings.h"
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Settings.png
+c000000004EC9B9ED000000000000E5D6
+t1321843181
+s58838
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Settings.xib
+c000000004ECC4ACD000000000000715B
+t1322011341
+s29019
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/demonSprite.png
+c000000004EC9866A0000000000000EC3
+t1321829994
+s3779
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/gameOverSplash.png
+c000000004ECC4820000000000000CEE3
+t1322010656
+s52963
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/icon.png
+c000000004EC35D960000000000001619
+t1321426326
+s5657
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/instructionButton.png
+c000000004EC9AD1C000000000000119E
+t1321839900
+s4510
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/instructions.h
+c000000004EC9AD6500000000000000DD
+t1321839973
+s221
+i<UIKit/UIKit.h>
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/instructions.m
+c000000004EC9AD65000000000000059B
+t1321839973
+s1435
+i"instructions.h"
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/instructions.xib
+c000000004EC9AD65000000000000185F
+t1321839973
+s6239
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/klbede.h
+c000000004EC1AC9500000000000000C7
+t1321315477
+s199
+i<UIKit/UIKit.h>
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/klbede.m
+c000000004EC1AC950000000000000243
+t1321315477
+s579
+i"klbede.h"
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/mainMenuButton.png
+c000000004ECC49940000000000000DE5
+t1322011028
+s3557
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/settingsbutton.png
+c000000004EC9C1790000000000001007
+t1321845113
+s4103
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/splash.png
+c000000004EC1943E000000000002B550
+t1321309246
+s177488
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/untitled.h
+c000000004EC9AD4C00000000000000D5
+t1321839948
+s213
+i<UIKit/UIKit.h>
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/untitled.m
+c000000004EC9AD4C000000000000058F
+t1321839948
+s1423
+i"untitled.h"
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/untitled.xib
+c000000004EC9AD4C0000000000001853
+t1321839948
+s6227
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/DemonsViewController.xib
+c000000004EC1986C0000000000004062
+t1321310316
+s16482
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Demons_Prefix.pch
+c000000004EC18C8400000000000000B5
+t1321307268
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/GameScreen.xib
+c000000004EC1AD980000000000002F2E
+t1321315736
+s12078
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/GameStartButton.png
+c000000004EC1A1020000000000001284
+t1321312514
+s4740
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/MainMenu.png
+c000000004EC19D40000000000000B5B6
+t1321311552
+s46518
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/MainWindow.xib
+c000000004EC197420000000000005177
+t1321310018
+s20855
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app
+t1322014856
+s1020
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app.dSYM
+t1322014856
+s102
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/BackToMenu.png
+t1321841173
+s4254
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/Button.png
+t1321316196
+s5108
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/Demon.png
+t1321319200
+s7019
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/Demons
+t1322014856
+s61108
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/DemonsViewController.nib
+t1321316197
+s1526
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/GameBackground.png
+t1321420268
+s215795
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/GameFullBackground.png
+t1322011219
+s354669
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/GameOver.nib
+t1321907946
+s3211
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/GameOver.png
+t1322003790
+s57217
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/GameScreen.nib
+t1322011278
+s4739
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/GameStart.nib
+t1321315159
+s1231
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/GameStartButton.png
+t1321316196
+s4740
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/GameViewController.nib
+t1321316197
+s1400
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/Info.plist
+t1321316196
+s587
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/InstructionScreen.png
+t1321840980
+s73234
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/Instructions.nib
+t1321841174
+s3283
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/MainMenu.png
+t1321316196
+s46518
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/MainWindow.nib
+t1321316197
+s1679
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/MenuScreen.nib
+t1322011345
+s4065
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/PkgInfo
+t1321316196
+s8
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/Settings.nib
+t1322011345
+s4723
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/Settings.png
+t1321844779
+s58838
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/demonSprite.png
+t1321830168
+s3779
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/gameOverSplash.png
+t1322010676
+s52963
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/icon.png
+t1321426354
+s5657
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/instructionButton.png
+t1321840400
+s4510
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/instructions.nib
+t2
+s0
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/mainMenuButton.png
+t1322011219
+s3557
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/settingsbutton.png
+t1321845248
+s4103
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/splash.png
+t1321316196
+s66603
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/untitled.nib
+t2
+s0
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/Demon.o
+t1321316200
+s12488
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/Demons.LinkFileList
+c000000004ECAB6E90000000000000728
+t1321907945
+s1832
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/DemonsAppDelegate.o
+t1322009167
+s53728
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/DemonsViewController.o
+t1322009050
+s45452
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/Game.o
+t1322014856
+s72156
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/GameOver.o
+t1322006796
+s38528
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/GameScreen.o
+t1321833204
+s38576
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/GameStart.o
+t1321315159
+s37976
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/GameViewController.o
+t1321316200
+s38164
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/Instructions.o
+t1321841174
+s38624
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/MenuScreen.o
+t1322006317
+s56604
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/SelectScreensAppDelegate.o
+t2
+s0
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/Settings.o
+t1322006511
+s47536
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/instructions.o
+t2
+s0
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/klbede.o
+t2
+s0
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/main.o
+t1321316200
+s6392
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/untitled.o
+t2
+s0
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/main.m
+c000000004EC18C84000000000000016A
+t1321307268
+s362
+i<UIKit/UIKit.h>
+
+N/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/splash.png
+c000000004EC19A00000000000001042B
+t1321310720
+s66603
+
+N/var/folders/Ad/Ad0sQuZQHsebW6vZeWHOzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demons_Prefix-cseowjtazjcpawemxzgsyslbvlou/Demons_Prefix.pch.gch
+t1321316200
+s15814064
+
+NDemons-Info.plist
+c000000004EC18C84000000000000038D
+t1321307268
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies343707655#343707655#0(0"0(0#1#0"8618404320#0"0#
+
+CCompileC build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/Demon.o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Demon.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s343009000.586935
+e343009000.663497
+r1
+xCompileC
+xbuild/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/Demon.o
+x/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Demon.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Demon.m343009000#343009000#0(0"0(0#0#94"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Demon.m8603676608#2366"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-generated-files.hmap" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-own-target-headers.hmap" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-all-target-headers.hmap" -iquote "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-project-headers.hmap" "-F/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/include" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/DerivedSources/i386" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/DerivedSources" -include /var/folders/Ad/Ad0sQuZQHsebW6vZeWHOzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demons_Prefix-cseowjtazjcpawemxzgsyslbvlou/Demons_Prefix.pch -c "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Demon.m" -o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/Demon.o"0#
+
+CCompileC build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/DemonsAppDelegate.o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/DemonsAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s343701967.545720
+e343701967.655299
+r1
+xCompileC
+xbuild/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/DemonsAppDelegate.o
+x/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/DemonsAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@114"Compile /Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/DemonsAppDelegate.m343701967#343701967#0(0"0(0#0#106"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/DemonsAppDelegate.m8616281536#2390"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-generated-files.hmap" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-own-target-headers.hmap" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-all-target-headers.hmap" -iquote "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-project-headers.hmap" "-F/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/include" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/DerivedSources/i386" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/DerivedSources" -include /var/folders/Ad/Ad0sQuZQHsebW6vZeWHOzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demons_Prefix-cseowjtazjcpawemxzgsyslbvlou/Demons_Prefix.pch -c "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/DemonsAppDelegate.m" -o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/DemonsAppDelegate.o"0#
+
+CCompileC build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/DemonsViewController.o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/DemonsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s343701850.072796
+e343701850.158675
+r1
+xCompileC
+xbuild/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/DemonsViewController.o
+x/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/DemonsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@117"Compile /Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/DemonsViewController.m343701850#343701850#0(0"0(0#0#109"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/DemonsViewController.m8601341408#2396"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-generated-files.hmap" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-own-target-headers.hmap" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-all-target-headers.hmap" -iquote "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-project-headers.hmap" "-F/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/include" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/DerivedSources/i386" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/DerivedSources" -include /var/folders/Ad/Ad0sQuZQHsebW6vZeWHOzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demons_Prefix-cseowjtazjcpawemxzgsyslbvlou/Demons_Prefix.pch -c "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/DemonsViewController.m" -o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/DemonsViewController.o"0#
+
+CCompileC build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/Game.o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Game.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s343707655.900904
+e343707656.188402
+r1
+xCompileC
+xbuild/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/Game.o
+x/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Game.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Game.m343707655#343707656#0(0"0(0#0#93"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Game.m8614434496#2364"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-generated-files.hmap" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-own-target-headers.hmap" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-all-target-headers.hmap" -iquote "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-project-headers.hmap" "-F/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/include" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/DerivedSources/i386" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/DerivedSources" -include /var/folders/Ad/Ad0sQuZQHsebW6vZeWHOzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demons_Prefix-cseowjtazjcpawemxzgsyslbvlou/Demons_Prefix.pch -c "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Game.m" -o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/Game.o"0#
+
+CCompileC build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/GameOver.o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameOver.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s343699596.939338
+e343699596.997112
+r1
+xCompileC
+xbuild/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/GameOver.o
+x/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameOver.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameOver.m343699596#343699596#0(0"0(0#0#97"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameOver.m8616029536#2372"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-generated-files.hmap" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-own-target-headers.hmap" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-all-target-headers.hmap" -iquote "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-project-headers.hmap" "-F/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/include" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/DerivedSources/i386" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/DerivedSources" -include /var/folders/Ad/Ad0sQuZQHsebW6vZeWHOzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demons_Prefix-cseowjtazjcpawemxzgsyslbvlou/Demons_Prefix.pch -c "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameOver.m" -o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/GameOver.o"0#
+
+CCompileC build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/GameScreen.o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameScreen.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s343526004.774306
+e343526004.907395
+r1
+xCompileC
+xbuild/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/GameScreen.o
+x/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameScreen.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameScreen.m343526004#343526004#0(0"0(0#0#99"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameScreen.m8619209504#2376"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-generated-files.hmap" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-own-target-headers.hmap" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-all-target-headers.hmap" -iquote "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-project-headers.hmap" "-F/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/include" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/DerivedSources/i386" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/DerivedSources" -include /var/folders/Ad/Ad0sQuZQHsebW6vZeWHOzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demons_Prefix-cseowjtazjcpawemxzgsyslbvlou/Demons_Prefix.pch -c "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameScreen.m" -o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/GameScreen.o"0#
+
+CCompileC build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/GameStart.o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameStart.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s343007959.434276
+e343007959.502485
+r1
+xCompileC
+xbuild/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/GameStart.o
+x/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameStart.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@106"Compile /Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameStart.m343007959#343007959#0(0"0(0#0#98"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameStart.m8625797312#2374"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-generated-files.hmap" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-own-target-headers.hmap" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-all-target-headers.hmap" -iquote "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-project-headers.hmap" "-F/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/include" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/DerivedSources/i386" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/DerivedSources" -include /var/folders/Ad/Ad0sQuZQHsebW6vZeWHOzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demons_Prefix-cseowjtazjcpawemxzgsyslbvlou/Demons_Prefix.pch -c "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameStart.m" -o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/GameStart.o"0#
+
+CCompileC build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/GameViewController.o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s343009000.663630
+e343009000.798896
+r1
+xCompileC
+xbuild/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/GameViewController.o
+x/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@115"Compile /Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameViewController.m343009000#343009000#0(0"0(0#0#107"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameViewController.m8601231456#2392"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-generated-files.hmap" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-own-target-headers.hmap" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-all-target-headers.hmap" -iquote "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-project-headers.hmap" "-F/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/include" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/DerivedSources/i386" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/DerivedSources" -include /var/folders/Ad/Ad0sQuZQHsebW6vZeWHOzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demons_Prefix-cseowjtazjcpawemxzgsyslbvlou/Demons_Prefix.pch -c "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameViewController.m" -o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/GameViewController.o"0#
+
+CCompileC build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/Instructions.o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Instructions.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s343533974.012825
+e343533974.108654
+r1
+xCompileC
+xbuild/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/Instructions.o
+x/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Instructions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@109"Compile /Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Instructions.m343533974#343533974#0(0"0(0#0#101"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Instructions.m8621472320#2380"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-generated-files.hmap" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-own-target-headers.hmap" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-all-target-headers.hmap" -iquote "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-project-headers.hmap" "-F/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/include" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/DerivedSources/i386" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/DerivedSources" -include /var/folders/Ad/Ad0sQuZQHsebW6vZeWHOzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demons_Prefix-cseowjtazjcpawemxzgsyslbvlou/Demons_Prefix.pch -c "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Instructions.m" -o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/Instructions.o"0#
+
+CCompileC build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/MenuScreen.o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/MenuScreen.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s343699117.033526
+e343699117.147552
+r1
+xCompileC
+xbuild/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/MenuScreen.o
+x/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/MenuScreen.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/MenuScreen.m343699117#343699117#0(0"0(0#0#99"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/MenuScreen.m8602628832#2376"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-generated-files.hmap" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-own-target-headers.hmap" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-all-target-headers.hmap" -iquote "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-project-headers.hmap" "-F/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/include" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/DerivedSources/i386" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/DerivedSources" -include /var/folders/Ad/Ad0sQuZQHsebW6vZeWHOzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demons_Prefix-cseowjtazjcpawemxzgsyslbvlou/Demons_Prefix.pch -c "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/MenuScreen.m" -o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/MenuScreen.o"0#
+
+CCompileC build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/SelectScreensAppDelegate.o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s343002890.913449
+e343002891.004571
+r0
+xCompileC
+xbuild/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/SelectScreensAppDelegate.o
+x/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m:9:37: error: SelectScreensAppDelegate.h: No such file or directory
+o/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m:14: warning: cannot find interface declaration for 'SelectScreensAppDelegate'
+o/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m:14: error: no declaration of property 'window' found in the interface
+o/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m:15: error: no declaration of property 'viewController' found in the interface
+o/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m: In function '-[SelectScreensAppDelegate application:didFinishLaunchingWithOptions:]':
+o/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m:27: error: request for member 'window' in something not a structure or union
+o/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m:27: error: request for member 'viewController' in something not a structure or union
+o/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m:28: error: request for member 'window' in something not a structure or union
+o/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m: In function '-[SelectScreensAppDelegate dealloc]':
+o/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m:83: error: 'viewController' undeclared (first use in this function)
+o/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m:83: error: (Each undeclared identifier is reported only once
+o/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m:83: error: for each function it appears in.)
+o/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m:84: error: 'window' undeclared (first use in this function)
+o/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m:85: error: no super class declared in @interface for 'SelectScreensAppDelegate'
+lSLF07#2@121"Compile /Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m343002890#343002891#0(2581"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m:9:37: error: SelectScreensAppDelegate.h: No such file or directory/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m:14: warning: cannot find interface declaration for 'SelectScreensAppDelegate'/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m:14: error: no declaration of property 'window' found in the interface/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m:15: error: no declaration of property 'viewController' found in the interface/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m: In function '-[SelectScreensAppDelegate application:didFinishLaunchingWithOptions:]':/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m:27: error: request for member 'window' in something not a structure or union/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m:27: error: request for member 'viewController' in something not a structure or union/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m:28: error: request for member 'window' in something not a structure or union/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m: In function '-[SelectScreensAppDelegate dealloc]':/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m:83: error: 'viewController' undeclared (first use in this function)/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m:83: error: (Each undeclared identifier is reported only once/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m:83: error: for each function it appears in.)/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m:84: error: 'window' undeclared (first use in this function)/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m:85: error: no super class declared in @interface for 'SelectScreensAppDelegate'10(4@53"SelectScreensAppDelegate.h: No such file or directory343002890#0#181#0(6@113"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m343002682#9#0#9#0#28"*: No such file or directory0(22@64"Cannot find interface declaration for 'SelectScreensAppDelegate'343002890#181#192#0(6@113"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m343002682#14#0#14#0#0"0(4@58"No declaration of property 'window' found in the interface343002890#373#184#0(6@113"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m343002682#14#0#14#0#0"0(4@66"No declaration of property 'viewController' found in the interface343002890#557#192#0(6@113"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m343002682#15#0#15#0#0"0(4@65"Request for member 'window' in something not a structure or union343002890#950#191#0(6@113"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m343002682#27#0#27#0#0"0(4@73"Request for member 'viewController' in something not a structure or union343002890#1141#199#0(6@113"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m343002682#27#0#27#0#0"0(4@65"Request for member 'window' in something not a structure or union343002890#1340#191#0(6@113"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m343002682#28#0#28#0#0"0(4@56"'viewController' undeclared (first use in this function)343002890#1697#182#0(6@113"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m343002682#83#0#83#0#43"'*' undeclared (first use in this function)0(4@48"'window' undeclared (first use in this function)343002890#2213#174#0(6@113"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m343002682#84#0#84#0#43"'*' undeclared (first use in this function)0(4@68"No super class declared in @interface for 'SelectScreensAppDelegate'343002890#2387#194#0(6@113"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m343002682#85#0#85#0#0"0(0#0#113"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m8616381664#2404"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-generated-files.hmap" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-own-target-headers.hmap" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-all-target-headers.hmap" -iquote "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-project-headers.hmap" "-F/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/include" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/DerivedSources/i386" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/DerivedSources" -include /var/folders/Ad/Ad0sQuZQHsebW6vZeWHOzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demons_Prefix-cseowjtazjcpawemxzgsyslbvlou/Demons_Prefix.pch -c "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/SelectScreensAppDelegate.m" -o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/SelectScreensAppDelegate.o"1#
+
+CCompileC build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/Settings.o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Settings.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s343699311.509152
+e343699311.610233
+r1
+xCompileC
+xbuild/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/Settings.o
+x/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Settings.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Settings.m343699311#343699311#0(0"0(0#0#97"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Settings.m8601143200#2372"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-generated-files.hmap" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-own-target-headers.hmap" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-all-target-headers.hmap" -iquote "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-project-headers.hmap" "-F/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/include" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/DerivedSources/i386" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/DerivedSources" -include /var/folders/Ad/Ad0sQuZQHsebW6vZeWHOzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demons_Prefix-cseowjtazjcpawemxzgsyslbvlou/Demons_Prefix.pch -c "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Settings.m" -o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/Settings.o"0#
+
+CCompileC build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/instructions.o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/instructions.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/klbede.o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/klbede.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/main.o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s343009000.583753
+e343009000.647678
+r1
+xCompileC
+xbuild/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/main.o
+x/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/main.m343009000#343009000#0(0"0(0#0#85"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/main.m8604309312#2356"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-generated-files.hmap" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-own-target-headers.hmap" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-all-target-headers.hmap" -iquote "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-project-headers.hmap" "-F/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/include" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/DerivedSources/i386" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/DerivedSources" -include /var/folders/Ad/Ad0sQuZQHsebW6vZeWHOzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demons_Prefix-cseowjtazjcpawemxzgsyslbvlou/Demons_Prefix.pch -c "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/main.m" -o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/untitled.o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/untitled.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameOver.xib"
+s343600745.843866
+e343600746.230346
+r1
+xCompileXIB
+x/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameOver.xib
+lSLF07#2@31"CompileXIB Classes/GameOver.xib343600745#343600746#0(0"0(0#0#99"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameOver.xib4841142211778322432#699"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/GameOver.nib" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameOver.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameScreen.xib"
+s343704077.480592
+e343704078.119572
+r1
+xCompileXIB
+x/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameScreen.xib
+lSLF07#2@33"CompileXIB Classes/GameScreen.xib343704077#343704078#0(0"0(0#0#101"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameScreen.xib8614341184#703"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/GameScreen.nib" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameScreen.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameStart.xib"
+s343007958.999237
+e343007959.337806
+r1
+xCompileXIB
+x/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameStart.xib
+lSLF07#2@32"CompileXIB Classes/GameStart.xib343007958#343007959#0(0"0(0#0#100"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameStart.xib8625776416#701"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/GameStart.nib" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameStart.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameViewController.xib"
+s343008996.860283
+e343008997.933185
+r1
+xCompileXIB
+x/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameViewController.xib
+lSLF07#2@41"CompileXIB Classes/GameViewController.xib343008996#343008997#0(0"0(0#0#109"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameViewController.xib8603789344#719"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/GameViewController.nib" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Instructions.xib"
+s343533973.622457
+e343533974.010525
+r1
+xCompileXIB
+x/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Instructions.xib
+lSLF07#2@35"CompileXIB Classes/Instructions.xib343533973#343533974#0(0"0(0#0#103"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Instructions.xib8624787328#707"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/Instructions.nib" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Instructions.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/MenuScreen.xib"
+s343704145.506000
+e343704145.927567
+r1
+xCompileXIB
+x/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/MenuScreen.xib
+lSLF07#2@33"CompileXIB Classes/MenuScreen.xib343704145#343704145#0(0"0(0#0#101"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/MenuScreen.xib8616868160#703"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/MenuScreen.nib" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/MenuScreen.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Settings.xib"
+s343704145.507761
+e343704145.950323
+r1
+xCompileXIB
+x/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Settings.xib
+lSLF07#2@31"CompileXIB Classes/Settings.xib343704145#343704145#0(0"0(0#0#99"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Settings.xib8616368672#699"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/Settings.nib" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Settings.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/instructions.xib"
+r0
+
+CCompileXIB "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/untitled.xib"
+r0
+
+CCompileXIB "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/DemonsViewController.xib"
+s343008996.856315
+e343008997.934380
+r1
+xCompileXIB
+x/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/DemonsViewController.xib
+lSLF07#2@35"CompileXIB DemonsViewController.xib343008996#343008997#0(0"0(0#0#103"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/DemonsViewController.xib8605924192#715"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/DemonsViewController.nib" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/DemonsViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/GameScreen.xib"
+s343008819.983863
+e343008820.324469
+r1
+xCompileXIB
+x/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/GameScreen.xib
+lSLF07#2@25"CompileXIB GameScreen.xib343008819#343008820#0(0"0(0#0#93"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/GameScreen.xib8626265248#695"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/GameScreen.nib" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/GameScreen.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/MainWindow.xib"
+s343008996.855563
+e343008997.934234
+r1
+xCompileXIB
+x/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib343008996#343008997#0(0"0(0#0#93"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/MainWindow.xib8607106720#695"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/MainWindow.nib" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCpResource build/Debug-iphonesimulator/Demons.app/BackToMenu.png Classes/BackToMenu.png
+s343533973.623382
+e343533973.629318
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Demons.app/BackToMenu.png
+xClasses/BackToMenu.png
+lSLF07#2@27"Copy Classes/BackToMenu.png343533973#343533973#0(0"0(0#0#101"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/BackToMenu.png8624207488#605"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/BackToMenu.png" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app"0#
+
+CCpResource build/Debug-iphonesimulator/Demons.app/Button.png Button.png
+s343008996.858937
+e343008996.872404
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Demons.app/Button.png
+xButton.png
+lSLF07#2@15"Copy Button.png343008996#343008996#0(0"0(0#0#89"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Button.png8604062304#593"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Button.png" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app"0#
+
+CCpResource build/Debug-iphonesimulator/Demons.app/Demon.png Classes/Demon.png
+s343012000.053770
+e343012000.071842
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Demons.app/Demon.png
+xClasses/Demon.png
+lSLF07#2@22"Copy Classes/Demon.png343012000#343012000#0(0"0(0#0#96"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Demon.png8616127168#600"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Demon.png" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app"0#
+
+CCpResource build/Debug-iphonesimulator/Demons.app/GameBackground.png Classes/GameBackground.png
+s343113068.592220
+e343113068.622925
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Demons.app/GameBackground.png
+xClasses/GameBackground.png
+lSLF07#2@31"Copy Classes/GameBackground.png343113068#343113068#0(0"0(0#0#105"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameBackground.png8615821600#609"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameBackground.png" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app"0#
+
+CCpResource build/Debug-iphonesimulator/Demons.app/GameFullBackground.png Classes/GameFullBackground.png
+s343704019.145857
+e343704019.176718
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Demons.app/GameFullBackground.png
+xClasses/GameFullBackground.png
+lSLF07#2@35"Copy Classes/GameFullBackground.png343704019#343704019#0(0"0(0#0#109"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameFullBackground.png8618315328#613"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameFullBackground.png" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app"0#
+
+CCpResource build/Debug-iphonesimulator/Demons.app/GameOver.png Classes/GameOver.png
+s343696590.008757
+e343696590.424491
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Demons.app/GameOver.png
+xClasses/GameOver.png
+lSLF07#2@25"Copy Classes/GameOver.png343696590#343696590#0(0"0(0#0#99"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameOver.png32088581144445008#603"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/GameOver.png" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app"0#
+
+CCpResource build/Debug-iphonesimulator/Demons.app/GameStartButton.png GameStartButton.png
+s343008996.859593
+e343008996.875935
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Demons.app/GameStartButton.png
+xGameStartButton.png
+lSLF07#2@24"Copy GameStartButton.png343008996#343008996#0(0"0(0#0#98"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/GameStartButton.png8604003104#602"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/GameStartButton.png" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app"0#
+
+CCpResource build/Debug-iphonesimulator/Demons.app/InstructionScreen.png Classes/InstructionScreen.png
+s343533780.402079
+e343533780.409682
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Demons.app/InstructionScreen.png
+xClasses/InstructionScreen.png
+lSLF07#2@34"Copy Classes/InstructionScreen.png343533780#343533780#0(0"0(0#0#108"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/InstructionScreen.png8624410880#612"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/InstructionScreen.png" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app"0#
+
+CCpResource build/Debug-iphonesimulator/Demons.app/MainMenu.png MainMenu.png
+s343008996.858267
+e343008996.874356
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Demons.app/MainMenu.png
+xMainMenu.png
+lSLF07#2@17"Copy MainMenu.png343008996#343008996#0(0"0(0#0#91"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/MainMenu.png8604177472#595"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/MainMenu.png" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app"0#
+
+CCpResource build/Debug-iphonesimulator/Demons.app/Settings.png Classes/Settings.png
+s343537579.414964
+e343537579.458354
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Demons.app/Settings.png
+xClasses/Settings.png
+lSLF07#2@25"Copy Classes/Settings.png343537579#343537579#0(0"0(0#0#99"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Settings.png8618896096#603"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/Settings.png" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app"0#
+
+CCpResource build/Debug-iphonesimulator/Demons.app/demonSprite.png Classes/demonSprite.png
+s343522968.623703
+e343522968.793566
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Demons.app/demonSprite.png
+xClasses/demonSprite.png
+lSLF07#2@28"Copy Classes/demonSprite.png343522968#343522968#0(0"0(0#0#102"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/demonSprite.png8604438208#606"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/demonSprite.png" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app"0#
+
+CCpResource build/Debug-iphonesimulator/Demons.app/gameOverSplash.png Classes/gameOverSplash.png
+s343703476.335787
+e343703476.340322
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Demons.app/gameOverSplash.png
+xClasses/gameOverSplash.png
+lSLF07#2@31"Copy Classes/gameOverSplash.png343703476#343703476#0(0"0(0#0#105"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/gameOverSplash.png8614768544#609"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/gameOverSplash.png" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app"0#
+
+CCpResource build/Debug-iphonesimulator/Demons.app/icon.png Classes/icon.png
+s343119154.064673
+e343119154.089969
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Demons.app/icon.png
+xClasses/icon.png
+lSLF07#2@21"Copy Classes/icon.png343119154#343119154#0(0"0(0#0#95"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/icon.png8607556640#599"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/icon.png" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app"0#
+
+CCpResource build/Debug-iphonesimulator/Demons.app/instructionButton.png Classes/instructionButton.png
+s343533200.081134
+e343533200.101735
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Demons.app/instructionButton.png
+xClasses/instructionButton.png
+lSLF07#2@34"Copy Classes/instructionButton.png343533200#343533200#0(0"0(0#0#108"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/instructionButton.png8622199008#612"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/instructionButton.png" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app"0#
+
+CCpResource build/Debug-iphonesimulator/Demons.app/mainMenuButton.png Classes/mainMenuButton.png
+s343704019.147239
+e343704019.176200
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Demons.app/mainMenuButton.png
+xClasses/mainMenuButton.png
+lSLF07#2@31"Copy Classes/mainMenuButton.png343704019#343704019#0(0"0(0#0#105"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/mainMenuButton.png8599295680#609"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/mainMenuButton.png" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app"0#
+
+CCpResource build/Debug-iphonesimulator/Demons.app/settingsbutton.png Classes/settingsbutton.png
+s343538048.468333
+e343538048.509451
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Demons.app/settingsbutton.png
+xClasses/settingsbutton.png
+lSLF07#2@31"Copy Classes/settingsbutton.png343538048#343538048#0(0"0(0#0#105"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/settingsbutton.png8618936224#609"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/settingsbutton.png" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app"0#
+
+CCpResource build/Debug-iphonesimulator/Demons.app/splash.png Classes/splash.png
+s343003063.982387
+e343003063.986598
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Demons.app/splash.png
+xClasses/splash.png
+lSLF07#2@23"Copy Classes/splash.png343003063#343003063#0(0"0(0#0#97"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/splash.png8617005600#601"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Classes/splash.png" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app"0#
+
+CCpResource build/Debug-iphonesimulator/Demons.app/splash.png splash.png
+s343008996.857539
+e343008996.874876
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Demons.app/splash.png
+xsplash.png
+lSLF07#2@15"Copy splash.png343008996#343008996#0(0"0(0#0#89"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/splash.png8604492192#593"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/splash.png" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app"0#
+
+CGenerateDSYMFile "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app.dSYM" "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/Demons"
+s343707656.667928
+e343707656.975656
+r1
+xGenerateDSYMFile
+x/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app.dSYM
+x/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/Demons
+lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/Demons.app.dSYM build/Debug-iphonesimulator/Demons.app/Demons343707656#343707656#0(0"0(0#0#124"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/Demons8619895840#506"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/Demons" -o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app.dSYM"0#
+
+CLd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/Demons" normal i386
+s343707656.188553
+e343707656.667800
+r1
+xLd
+x/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/Demons
+xnormal
+xi386
+lSLF07#2@129"Link /Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/Demons343707656#343707656#0(0"0(0#0#0"8619217440#1129"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk "-L/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator" "-F/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator" -filelist "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Objects-normal/i386/Demons.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/Demons"0#
+
+CProcessInfoPlistFile "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/Info.plist" Demons-Info.plist
+s343008996.824547
+e343008996.855458
+r1
+xProcessInfoPlistFile
+x/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/Info.plist
+xDemons-Info.plist
+lSLF07#2@25"Process Demons-Info.plist343008996#343008996#0(0"0(0#0#96"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Demons-Info.plist8601102624#602"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Demons-Info.plist -genpkginfo "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app/Info.plist"0#
+
+CProcessPCH /var/folders/Ad/Ad0sQuZQHsebW6vZeWHOzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demons_Prefix-cseowjtazjcpawemxzgsyslbvlou/Demons_Prefix.pch.gch Demons_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s343008998.268131
+e343009000.583504
+r1
+xProcessPCH
+x/var/folders/Ad/Ad0sQuZQHsebW6vZeWHOzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demons_Prefix-cseowjtazjcpawemxzgsyslbvlou/Demons_Prefix.pch.gch
+xDemons_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile Demons_Prefix.pch343008998#343009000#0(0"0(0#0#96"/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Demons_Prefix.pch8600994848#2207"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-generated-files.hmap" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-own-target-headers.hmap" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-all-target-headers.hmap" -iquote "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/Demons-project-headers.hmap" "-F/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/include" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/DerivedSources/i386" "-I/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Demons.build/Debug-iphonesimulator/Demons.build/DerivedSources" -c "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/Demons_Prefix.pch" -o /var/folders/Ad/Ad0sQuZQHsebW6vZeWHOzk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demons_Prefix-cseowjtazjcpawemxzgsyslbvlou/Demons_Prefix.pch.gch0#
+
+CTouch "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app"
+s343707656.975765
+e343707657.103824
+r1
+xTouch
+x/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app
+lSLF07#2@123"Touch /Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app343707656#343707657#0(0"0(0#0#0"8619037920#361"    cd "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/offthebreak98/Documents/DePaul Classes/Autumn 2011/CSC 371/Final/Demons/build/Debug-iphonesimulator/Demons.app"0#
+

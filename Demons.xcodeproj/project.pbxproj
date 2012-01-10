@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* DemonsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DemonsAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* DemonsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* DemonsViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* DemonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* DemonsViewController.m */; };
+		71081C601479BE3C004B5896 /* demonSprite.png in Resources */ = {isa = PBXBuildFile; fileRef = 71081C5F1479BE3C004B5896 /* demonSprite.png */; };
+		71081CB31479E4B3004B5896 /* instructionButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 71081CB21479E4B3004B5896 /* instructionButton.png */; };
+		71081CC11479E50A004B5896 /* Instructions.m in Sources */ = {isa = PBXBuildFile; fileRef = 71081CBF1479E50A004B5896 /* Instructions.m */; };
+		71081CC21479E50A004B5896 /* Instructions.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71081CC01479E50A004B5896 /* Instructions.xib */; };
+		71081CF21479E859004B5896 /* InstructionScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 71081CF11479E859004B5896 /* InstructionScreen.png */; };
+		71081CF81479E936004B5896 /* BackToMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 71081CF71479E936004B5896 /* BackToMenu.png */; };
+		71081D2F1479EF7A004B5896 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 71081D2D1479EF7A004B5896 /* Settings.m */; };
+		71081D301479EF7A004B5896 /* Settings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71081D2E1479EF7A004B5896 /* Settings.xib */; };
+		71081D341479F037004B5896 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 71081D331479F037004B5896 /* Settings.png */; };
+		71081D461479F8A8004B5896 /* settingsbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 71081D451479F8A8004B5896 /* settingsbutton.png */; };
+		719FED8B147AEB5B00D1BCC8 /* GameOver.m in Sources */ = {isa = PBXBuildFile; fileRef = 719FED89147AEB5B00D1BCC8 /* GameOver.m */; };
+		719FED8C147AEB5B00D1BCC8 /* GameOver.xib in Resources */ = {isa = PBXBuildFile; fileRef = 719FED8A147AEB5B00D1BCC8 /* GameOver.xib */; };
+		719FED8F147AEC2A00D1BCC8 /* GameOver.png in Resources */ = {isa = PBXBuildFile; fileRef = 719FED8E147AEC2A00D1BCC8 /* GameOver.png */; };
+		71C673AF147C7FAD00893E88 /* gameOverSplash.png in Resources */ = {isa = PBXBuildFile; fileRef = 71C673AE147C7FAD00893E88 /* gameOverSplash.png */; };
+		71C673B6147C807700893E88 /* mainMenuButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 71C673B5147C807700893E88 /* mainMenuButton.png */; };
+		71CF362F1471E6DA009F07C8 /* GameScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CF362D1471E6DA009F07C8 /* GameScreen.m */; };
+		71CF36301471E6DA009F07C8 /* GameScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71CF362E1471E6DA009F07C8 /* GameScreen.xib */; };
+		71CF36551471EA42009F07C8 /* GameBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 71CF36541471EA42009F07C8 /* GameBackground.png */; };
+		71CF36A41471F279009F07C8 /* Demon.png in Resources */ = {isa = PBXBuildFile; fileRef = 71CF36A31471F279009F07C8 /* Demon.png */; };
+		71E520BE1471C559003997E7 /* Demon.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E520BD1471C559003997E7 /* Demon.m */; };
+		71E520E11471C7ED003997E7 /* MenuScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E520DF1471C7ED003997E7 /* MenuScreen.m */; };
+		71E520E21471C7ED003997E7 /* MenuScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71E520E01471C7ED003997E7 /* MenuScreen.xib */; };
+		71E5213B1471D197003997E7 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 71E5213A1471D197003997E7 /* splash.png */; };
+		71E521471471D4CB003997E7 /* MainMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 71E521461471D4CB003997E7 /* MainMenu.png */; };
+		71E521501471D68B003997E7 /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 71E5214F1471D68B003997E7 /* Button.png */; };
+		71E5215C1471D890003997E7 /* GameStartButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 71E5215B1471D890003997E7 /* GameStartButton.png */; };
+		71E5217D1471DD5C003997E7 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E5217B1471DD5C003997E7 /* GameViewController.m */; };
+		71E5217E1471DD5C003997E7 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71E5217C1471DD5C003997E7 /* GameViewController.xib */; };
+		71E521871471DED1003997E7 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E521861471DED1003997E7 /* Game.m */; };
+		71E521991471E078003997E7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71E521981471E078003997E7 /* AudioToolbox.framework */; };
+		71F45DE114739114000A9D34 /* GameFullBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 71F45DE014739114000A9D34 /* GameFullBackground.png */; };
+		71F45DFE1473952B000A9D34 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 71F45DFD1473952B000A9D34 /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* DemonsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemonsAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* DemonsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemonsAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Demons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* DemonsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemonsViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* DemonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemonsViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* DemonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemonsViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Demons_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demons_Prefix.pch; sourceTree = "<group>"; };
+		71081C5F1479BE3C004B5896 /* demonSprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = demonSprite.png; path = Classes/demonSprite.png; sourceTree = "<group>"; };
+		71081CB21479E4B3004B5896 /* instructionButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = instructionButton.png; path = Classes/instructionButton.png; sourceTree = "<group>"; };
+		71081CBE1479E50A004B5896 /* Instructions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Instructions.h; sourceTree = "<group>"; };
+		71081CBF1479E50A004B5896 /* Instructions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Instructions.m; sourceTree = "<group>"; };
+		71081CC01479E50A004B5896 /* Instructions.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Instructions.xib; path = Classes/Instructions.xib; sourceTree = "<group>"; };
+		71081CF11479E859004B5896 /* InstructionScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = InstructionScreen.png; path = Classes/InstructionScreen.png; sourceTree = "<group>"; };
+		71081CF71479E936004B5896 /* BackToMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BackToMenu.png; path = Classes/BackToMenu.png; sourceTree = "<group>"; };
+		71081D2C1479EF7A004B5896 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		71081D2D1479EF7A004B5896 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		71081D2E1479EF7A004B5896 /* Settings.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Settings.xib; path = Classes/Settings.xib; sourceTree = "<group>"; };
+		71081D331479F037004B5896 /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Settings.png; path = Classes/Settings.png; sourceTree = "<group>"; };
+		71081D451479F8A8004B5896 /* settingsbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settingsbutton.png; path = Classes/settingsbutton.png; sourceTree = "<group>"; };
+		719FED88147AEB5B00D1BCC8 /* GameOver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOver.h; sourceTree = "<group>"; };
+		719FED89147AEB5B00D1BCC8 /* GameOver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOver.m; sourceTree = "<group>"; };
+		719FED8A147AEB5B00D1BCC8 /* GameOver.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GameOver.xib; path = Classes/GameOver.xib; sourceTree = "<group>"; };
+		719FED8E147AEC2A00D1BCC8 /* GameOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GameOver.png; path = Classes/GameOver.png; sourceTree = "<group>"; };
+		71C673AE147C7FAD00893E88 /* gameOverSplash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gameOverSplash.png; path = Classes/gameOverSplash.png; sourceTree = "<group>"; };
+		71C673B5147C807700893E88 /* mainMenuButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mainMenuButton.png; path = Classes/mainMenuButton.png; sourceTree = "<group>"; };
+		71CF362C1471E6DA009F07C8 /* GameScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScreen.h; sourceTree = "<group>"; };
+		71CF362D1471E6DA009F07C8 /* GameScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScreen.m; sourceTree = "<group>"; };
+		71CF362E1471E6DA009F07C8 /* GameScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GameScreen.xib; path = Classes/GameScreen.xib; sourceTree = "<group>"; };
+		71CF36541471EA42009F07C8 /* GameBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GameBackground.png; path = Classes/GameBackground.png; sourceTree = "<group>"; };
+		71CF36A31471F279009F07C8 /* Demon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Demon.png; path = Classes/Demon.png; sourceTree = "<group>"; };
+		71E520BC1471C559003997E7 /* Demon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demon.h; sourceTree = "<group>"; };
+		71E520BD1471C559003997E7 /* Demon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demon.m; sourceTree = "<group>"; };
+		71E520DE1471C7ED003997E7 /* MenuScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuScreen.h; sourceTree = "<group>"; };
+		71E520DF1471C7ED003997E7 /* MenuScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuScreen.m; sourceTree = "<group>"; };
+		71E520E01471C7ED003997E7 /* MenuScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MenuScreen.xib; path = Classes/MenuScreen.xib; sourceTree = "<group>"; };
+		71E5213A1471D197003997E7 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		71E521461471D4CB003997E7 /* MainMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainMenu.png; sourceTree = "<group>"; };
+		71E5214F1471D68B003997E7 /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
+		71E5215B1471D890003997E7 /* GameStartButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameStartButton.png; sourceTree = "<group>"; };
+		71E5217A1471DD5C003997E7 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		71E5217B1471DD5C003997E7 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		71E5217C1471DD5C003997E7 /* GameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GameViewController.xib; path = Classes/GameViewController.xib; sourceTree = "<group>"; };
+		71E521851471DED1003997E7 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		71E521861471DED1003997E7 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		71E521981471E078003997E7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		71F45DE014739114000A9D34 /* GameFullBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GameFullBackground.png; path = Classes/GameFullBackground.png; sourceTree = "<group>"; };
+		71F45DFD1473952B000A9D34 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Classes/icon.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Demons-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Demons-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				71E521991471E078003997E7 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* DemonsAppDelegate.h */,
+				1D3623250D0F684500981E51 /* DemonsAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* DemonsViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* DemonsViewController.m */,
+				71E520BC1471C559003997E7 /* Demon.h */,
+				71E520BD1471C559003997E7 /* Demon.m */,
+				71E520DE1471C7ED003997E7 /* MenuScreen.h */,
+				71E520DF1471C7ED003997E7 /* MenuScreen.m */,
+				71E5217A1471DD5C003997E7 /* GameViewController.h */,
+				71E5217B1471DD5C003997E7 /* GameViewController.m */,
+				71E521851471DED1003997E7 /* Game.h */,
+				71E521861471DED1003997E7 /* Game.m */,
+				71CF362C1471E6DA009F07C8 /* GameScreen.h */,
+				71CF362D1471E6DA009F07C8 /* GameScreen.m */,
+				71081CBE1479E50A004B5896 /* Instructions.h */,
+				71081CBF1479E50A004B5896 /* Instructions.m */,
+				71081D2C1479EF7A004B5896 /* Settings.h */,
+				71081D2D1479EF7A004B5896 /* Settings.m */,
+				719FED88147AEB5B00D1BCC8 /* GameOver.h */,
+				719FED89147AEB5B00D1BCC8 /* GameOver.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Demons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Demons_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				71081CC01479E50A004B5896 /* Instructions.xib */,
+				719FED8A147AEB5B00D1BCC8 /* GameOver.xib */,
+				719FED8E147AEC2A00D1BCC8 /* GameOver.png */,
+				71C673B5147C807700893E88 /* mainMenuButton.png */,
+				71081D2E1479EF7A004B5896 /* Settings.xib */,
+				71C673AE147C7FAD00893E88 /* gameOverSplash.png */,
+				71081D331479F037004B5896 /* Settings.png */,
+				71081D451479F8A8004B5896 /* settingsbutton.png */,
+				71F45DFD1473952B000A9D34 /* icon.png */,
+				71081C5F1479BE3C004B5896 /* demonSprite.png */,
+				71081CF71479E936004B5896 /* BackToMenu.png */,
+				71F45DE014739114000A9D34 /* GameFullBackground.png */,
+				71081CB21479E4B3004B5896 /* instructionButton.png */,
+				71CF36A31471F279009F07C8 /* Demon.png */,
+				71CF36541471EA42009F07C8 /* GameBackground.png */,
+				71CF362E1471E6DA009F07C8 /* GameScreen.xib */,
+				71E5217C1471DD5C003997E7 /* GameViewController.xib */,
+				71081CF11479E859004B5896 /* InstructionScreen.png */,
+				71E5214F1471D68B003997E7 /* Button.png */,
+				71E5215B1471D890003997E7 /* GameStartButton.png */,
+				71E521461471D4CB003997E7 /* MainMenu.png */,
+				71E5213A1471D197003997E7 /* splash.png */,
+				71E520E01471C7ED003997E7 /* MenuScreen.xib */,
+				2899E5210DE3E06400AC0155 /* DemonsViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Demons-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				71E521981471E078003997E7 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Demons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Demons" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demons;
+			productName = Demons;
+			productReference = 1D6058910D05DD3D006BFB54 /* Demons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Demons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Demons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* DemonsViewController.xib in Resources */,
+				71E520E21471C7ED003997E7 /* MenuScreen.xib in Resources */,
+				71E5213B1471D197003997E7 /* splash.png in Resources */,
+				71E521471471D4CB003997E7 /* MainMenu.png in Resources */,
+				71E521501471D68B003997E7 /* Button.png in Resources */,
+				71E5215C1471D890003997E7 /* GameStartButton.png in Resources */,
+				71E5217E1471DD5C003997E7 /* GameViewController.xib in Resources */,
+				71CF36301471E6DA009F07C8 /* GameScreen.xib in Resources */,
+				71CF36551471EA42009F07C8 /* GameBackground.png in Resources */,
+				71CF36A41471F279009F07C8 /* Demon.png in Resources */,
+				71F45DE114739114000A9D34 /* GameFullBackground.png in Resources */,
+				71F45DFE1473952B000A9D34 /* icon.png in Resources */,
+				71081C601479BE3C004B5896 /* demonSprite.png in Resources */,
+				71081CB31479E4B3004B5896 /* instructionButton.png in Resources */,
+				71081CC21479E50A004B5896 /* Instructions.xib in Resources */,
+				71081CF21479E859004B5896 /* InstructionScreen.png in Resources */,
+				71081CF81479E936004B5896 /* BackToMenu.png in Resources */,
+				71081D301479EF7A004B5896 /* Settings.xib in Resources */,
+				71081D341479F037004B5896 /* Settings.png in Resources */,
+				71081D461479F8A8004B5896 /* settingsbutton.png in Resources */,
+				719FED8C147AEB5B00D1BCC8 /* GameOver.xib in Resources */,
+				719FED8F147AEC2A00D1BCC8 /* GameOver.png in Resources */,
+				71C673AF147C7FAD00893E88 /* gameOverSplash.png in Resources */,
+				71C673B6147C807700893E88 /* mainMenuButton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* DemonsAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* DemonsViewController.m in Sources */,
+				71E520BE1471C559003997E7 /* Demon.m in Sources */,
+				71E520E11471C7ED003997E7 /* MenuScreen.m in Sources */,
+				71E5217D1471DD5C003997E7 /* GameViewController.m in Sources */,
+				71E521871471DED1003997E7 /* Game.m in Sources */,
+				71CF362F1471E6DA009F07C8 /* GameScreen.m in Sources */,
+				71081CC11479E50A004B5896 /* Instructions.m in Sources */,
+				71081D2F1479EF7A004B5896 /* Settings.m in Sources */,
+				719FED8B147AEB5B00D1BCC8 /* GameOver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Demons_Prefix.pch;
+				INFOPLIST_FILE = "Demons-Info.plist";
+				PRODUCT_NAME = Demons;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Demons_Prefix.pch;
+				INFOPLIST_FILE = "Demons-Info.plist";
+				PRODUCT_NAME = Demons;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Demons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Demons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
